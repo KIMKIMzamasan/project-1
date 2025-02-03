@@ -3,7 +3,7 @@
 </script>
 
 <div class="picture">
-    <img src="Me.jpg" alt="Me" style="border-radius: 50%; width: 500px">
+    <img src="Me.jpg" alt="Me" style="border-radius: 50%; width: 500px;  box-shadow: 5px 5px 10px #8A2BE2 ">
 </div>
 
     <h2>About Me</h2>
@@ -33,11 +33,10 @@
             <p>MSSQL and MySQL</p>
             <p>HTML and CSS (Beginner)</p>
         </div>
-
-        
-
+       
     </div>
 
+    <h2>Achievements</h2>
     
 
 <style>
@@ -87,4 +86,11 @@
         grid-gap: 20px; 
    
     }
+
+    .achievements{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
 </style>
