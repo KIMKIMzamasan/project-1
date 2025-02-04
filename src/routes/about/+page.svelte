@@ -272,18 +272,9 @@
     width: 50% auto; 
     }
 
-    .picture{
-    display: block;
-    margin: 1rem;
-    padding: 1rem 1rem;
-    text-align: center;
-    }
-
     .picture img{
         width: 200px;     
-        border-radius: 50%; 
-        width: 200px;  
-        box-shadow: 5px 5px 10px #8A2BE2
+
     }
 
     .Tagisan{
@@ -343,18 +334,11 @@
     width: 50% auto; 
     }
 
-    .picture{
-    display: block;
-    margin: 1rem;
-    padding: 1rem 1rem;
-    text-align: center;
-    }
+
 
     .picture img{
         width: 200px;     
-        border-radius: 50%; 
-        width: 200px;  
-        box-shadow: 5px 5px 10px #8A2BE2
+
     }
 
     .Tagisan{
