@@ -1,7 +1,7 @@
 <script>
 
 </script>
-<h1>Portfolio</h1>
+<h1>KIM</h1>
 
 <div class="container">
     <div class="index">
