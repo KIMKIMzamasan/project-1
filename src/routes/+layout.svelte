@@ -24,38 +24,34 @@ import '../routes/global.css';
     
     <div class="container">
         <div class="sec1">
-
             <div class="pictures">
                 <img src="facebook.svg" alt="">
-                <a href="https://www.facebook.com/kimkimsama.cabural.1">czar cabural</a>
+                <a href="https://www.facebook.com/kimkimsama.cabural.1"target="_blank">czar cabural</a>
             </div>
 
             <div class="pictures">
                 <img src="instagram.svg" alt="">
-                <a href="https://www.instagram.com/cabural_czar/">czar_cabural</a>
+                <a href="https://www.instagram.com/cabural_czar/"target="_blank">czar_cabural</a>
             </div>
 
             <div class="pictures">
                 <img src="github.svg" alt="">
-                <a href="https://github.com/KIMKIMzamasan">KIMKIMzamasan</a>
+                <a href="https://github.com/KIMKIMzamasan" target="_blank">KIMKIMzamasan</a>
             </div>
-
         </div>
 
         <div class="sec2">
             <div class="pictures">
                 <img src="linkedin.svg" alt="">
-                <a href="https://www.linkedin.com/in/czar-von-louie-cabural-153a91332/">Czar Von Louie Cbaural</a>
+                <a href="https://www.linkedin.com/in/czar-von-louie-cabural-153a91332/"target="_blank" >Czar Von Louie Cbaural</a>
             </div>
 
             <div class="pictures">
                 <img src="gmail.svg" alt="">
-                <a href="https://www.gmail.com/">caburalczarvonlouie@gmail.com</a>
+                <a href="https://www.gmail.com/"target="_blank">caburalczarvonlouie@gmail.com</a>
             </div>
         </div>
     </div>
-
-    
 
 </footer>
 
@@ -84,10 +80,9 @@ import '../routes/global.css';
 
     .container{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1.5fr 1fr 1fr;
         justify-content: justify;
     }
-
 
     .pictures img{
         width: 30px;
@@ -106,14 +101,17 @@ import '../routes/global.css';
     margin-top: 20px;
     margin: 10px;
     }
+
     .home{
     margin-top: 20px;
     margin: 10px;
     }
+
     ul{
     list-style-type: none;
     padding: 0%;
     }
+
     a{
     display: inline-block;
     margin-top: 10px;
