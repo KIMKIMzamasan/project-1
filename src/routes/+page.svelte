@@ -1,5 +1,5 @@
 <script>
-
+    import { base } from "$app/paths";
 </script>
 <h1>KIM</h1>
 
