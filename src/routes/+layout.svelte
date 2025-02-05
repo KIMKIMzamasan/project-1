@@ -15,6 +15,11 @@ import '../routes/global.css';
             <li><a href="/about" style="color: aliceblue; font-size: 30px;">About Me</a></li>
         </ul>
     </div>
+    <div class="crud">
+        <ul>
+            <li><a href="/CRUD" style="color: aliceblue; font-size: 30px;" >CRUD</a></li>
+        </ul>
+    </div>
 </header>
 <main>
     <slot> </slot>
@@ -69,7 +74,7 @@ import '../routes/global.css';
     footer{
         display: block;
         background-color: #8A2BE2;
-        height: 300px;
+        height: 250px;
         padding: 20px;
     }
 
@@ -98,24 +103,29 @@ import '../routes/global.css';
     }
 
     .about{
-    margin-top: 20px;
-    margin: 10px;
+        margin-top: 20px;
+        margin: 10px;
     }
 
     .home{
-    margin-top: 20px;
-    margin: 10px;
+        margin-top: 20px;
+        margin: 10px;
+    }
+
+    .crud{
+        margin-top: 20px;
+        margin: 10px;
     }
 
     ul{
-    list-style-type: none;
-    padding: 0%;
+        list-style-type: none;
+        padding: 0%;
     }
 
     a{
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px;
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px;
     }
    
 </style>

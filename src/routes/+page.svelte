@@ -1,3 +1,5 @@
+<!-- Local host https://localhost:5174 -->
+
 <script>
     import { base } from "$app/paths";
 </script>
